@@ -6,9 +6,9 @@ Send this to **Josiah Bailes** (josiah@audiolink.co). He adds Avery to the funne
 
 ## Render
 
-Public repo Render can clone:
+Clone this repo. It is the copy on the same GitHub account as the other AudioLink Render apps:
 
-`https://github.com/AudioLink-Co/avery-vsl-chat.git`
+`https://github.com/ttoledo-art/avery-vsl-chat.git`
 
 Default branch: `main`.
 
