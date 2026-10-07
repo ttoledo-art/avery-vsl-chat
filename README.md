@@ -30,7 +30,7 @@ Set these in the Render dashboard. Do not put them in git, and do not put `OPENA
 | --- | --- | --- |
 | `OPENAI_API_KEY` | Yes, for answers | Server only. `render.yaml` marks it `sync: false` so the value is typed in the dashboard on first create |
 | `NEXT_PUBLIC_BOOKING_URL` | No | Defaults to `https://calendar.audiolink.co/audiolink-call-579300`. Next inlines `NEXT_PUBLIC_*` at build time, so change it and rebuild |
-| `AVERY_PORTRAIT_URL` | No | Server only. Blank uses the built-in portrait |
+| `AVERY_PORTRAIT_URL` | No | Server only. Blank uses the AudioLink logo (`/avery-avatar-audiolink.png`) |
 
 After the service is live, the public paths are `https://YOUR_SERVICE.onrender.com/`, `/embed`, and `/embed.js`.
 
@@ -94,7 +94,7 @@ Whoever deploys sets it in the host environment (or `.env.local` for local runs)
 | --- | --- | --- |
 | `OPENAI_API_KEY` | Server only. Required for answers | `gpt-4o-mini` |
 | `NEXT_PUBLIC_BOOKING_URL` | Build-time env. Optional | Calendar link. Defaults to the AudioLink booking page. Rebuild after changing it |
-| `AVERY_PORTRAIT_URL` | Server only. Optional | Photo for Avery. Blank uses the built-in portrait |
+| `AVERY_PORTRAIT_URL` | Server only. Optional | Photo for Avery. Blank uses the AudioLink logo (`/avery-avatar-audiolink.png`) |
 
 Copy `.env.example` to `.env.local` for local runs. Do not commit `.env.local`.
 

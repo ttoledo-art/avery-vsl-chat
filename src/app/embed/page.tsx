@@ -18,7 +18,7 @@ export default async function EmbedPage({
     ? params.bookingTarget[0]
     : params.bookingTarget;
   const bookingTarget = raw === "self" ? "self" : "blank";
-  const portraitUrl = process.env.AVERY_PORTRAIT_URL?.trim() || null;
+  const portraitUrl = process.env.AVERY_PORTRAIT_URL?.trim() || "/avery-avatar-audiolink.png";
 
   return (
     <main className="h-dvh min-h-0 overflow-hidden">
