@@ -5,7 +5,7 @@ import { getBookingUrl } from "@/lib/calendar";
 export const dynamic = "force-dynamic";
 
 export default function HomePage() {
-  const portraitUrl = process.env.AVERY_PORTRAIT_URL?.trim() || null;
+  const portraitUrl = process.env.AVERY_PORTRAIT_URL?.trim() || "/avery-avatar-audiolink.png";
 
   return (
     <main className="min-h-full bg-paper text-foreground">
